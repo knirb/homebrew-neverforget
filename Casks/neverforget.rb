@@ -8,9 +8,4 @@ cask "neverforget" do
   homepage "https://github.com/knirb/never-forget"
 
   app "NeverForget.app"
-
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/NeverForget.app"]
-  end
 end
