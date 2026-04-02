@@ -8,4 +8,12 @@ cask "neverforget" do
   homepage "https://github.com/knirb/never-forget"
 
   app "NeverForget.app"
+
+  caveats <<~EOS
+    NeverForget is not signed with an Apple Developer certificate.
+    To avoid macOS quarantine, install with:
+      brew install --cask --no-quarantine neverforget
+    If already installed, run:
+      xattr -cr /Applications/NeverForget.app
+  EOS
 end
