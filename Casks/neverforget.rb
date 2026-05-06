@@ -1,6 +1,6 @@
 cask "neverforget" do
-  version "0.2.0"
-  sha256 "e4b6cc1ad638fa643a6cbfb054cbe160bdab32de6bcf3942c4540abd614b27fb"
+  version "0.3.0"
+  sha256 "f4718e98ad795df13bb4fa35ead2e31edd4168cab10b0bde7d1679c997861cdf"
 
   url "https://github.com/knirb/never-forget/releases/download/v#{version}/NeverForget-#{version}.zip"
   name "Never Forget"
